@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MyAnime</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		
+</head>
+<body onload="slider()">
+	
+	<div class="banner">
+		<div class="slider">
+			<img src="css/2.jpg" id="slideImg">
+		</div>
+		<div class="overlay">
+			<div class="navbar">
+				<div class="logo">
+				<h2 class="logo">My<span>Anime</span></h2>
+				</div>
+				<div class="menu-icons">
+					<img src="css/love.png">
+				</div>
+				<div class="content">
+					<h1>FUSHIGI YUUGI</h1>
+					<a href="file:///C:/Users/joji/Documents/DevRepo/My-Anime-Web/home/Index.html" class="button">Click Me</a>
+				</div>
+			</div>	
+		</div>
+    </div>	
+
+<script>
+
+var slideImg = document.getElementById("slideImg");
+var images = new Array(
+  		"css/1.jpg",
+  		"css/2.jpg",
+  		"css/3.jpg",
+  		"css/4.jpg"
+  	);
+
+var len = images.length;
+var i = 0;
+
+function slider() {
+	if (i > len-1){
+		i = 0;
+	}
+	slideImg.src = images[i]
+    i++;
+   setTimeout(slider, 2000);
+}
+</script>
+
+	
+</body>
+</html>	

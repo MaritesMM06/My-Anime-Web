@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyAnime</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		
+</head>
+<body>
+	
+	<div class="Anime">
+	
+	<nav>
+		<h2 class="logo">My<span>Anime</span></h2>
+		<ul>
+		  <li><a href="file:///E:/000000Programming101/MARITES%20Folder/portfolio/Index.html?fname=&lname=&number=&email=&message=&submit=Click+Me#">Home</a></li>
+		  <li><a href="file:///E:/000000Programming101/MARITES%20Folder/portfolio/music/music.html">Theme Song</a></li>
+		  <li><a href="file:///E:/000000Programming101/MARITES%20Folder/portfolio/image/picture.html">Gallery</a></li>
+		</ul>
+		<a href="file:///C:/Users/DEVCORE/Desktop/anime/index.html" class="btn">One Piece</a>
+	</nav>
+	
+	<div class="content">
+		<h4>Hello,Fushigi Yuugi Lovers</h4>
+		<h1>If you <span>Love</span> This Anime</h1>
+		<h3>Subcribe <span>Now!!</span></h3>
+		<div class="newslatter">
+		  <form>
+		<input type ="text" name ="fname" placeholder="First Name"><br>
+		<br>
+		<input type ="text" name ="lname" placeholder="Last Name"><br>
+		<br>
+		<select>
+		<option>+1</option>
+		<option>+81</option>
+		<option>+63</option>
+		<option>+86</option>
+		<option>+61</option>
+		<option>+49</option>
+		</select> 
+		<input type ="text" name ="number" placeholder="Phone Number"><br>
+		<br>
+		<input type ="text" name ="email" id="mail" placeholder="Email"><br><br>
+		<textarea name ="message" rows ="5" cols ="30" placeholder="Write a message!"""></textarea>
+		<br><br><br>
+		<input type="submit" name="submit" value="Click Me"> 
+		  </form>
+		 </div> 
+		 </div>
+	</div>
+	<section class="about">
+		<div class="main">
+			<img src="https://www.nicepng.com/png/detail/621-6210041_fushigi-yugi-miaka-yuki-fushigi-yuugi.png" alt="Fushigi Yugi - Miaka Yuki Fushigi Yuugi@nicepng.com">
+			<div class="about-text">
+				<h2>WiKi</h2>
+				<h4>Fushigi <span>Yuugi</span></h4>
+				<p>Fushigi Yûgi (Japanese: ふしぎ遊戯, lit. "Mysterious Game"[3]), also known as Fushigi Yûgi: The Mysterious Play[4] or Curious Play,[5] is a Japanese shōjo manga series written and illustrated by Yuu Watase. It tells the story of two teenaged girls, Miaka and Yui, who are pulled into The Universe of the Four Gods, a mysterious book at the National Diet Library. It is essentially based on four mythological creatures of China. Shogakukan serialized Fushigi Yûgi in Shōjo Comic from December 1991 to May 1996 and later compiled the manga into eighteen tankōbon volumes.</p>
+				
+			</div>	
+		</div>
+
+
+		<div class="service">
+				<h2>Fushigi Yuugi Song</h2>
+		</div>		
+				<div class="iframe-container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/hAWl2-q18eM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>	
+			</section>	
+		
+</body>
+</html>	
